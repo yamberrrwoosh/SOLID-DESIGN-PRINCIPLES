@@ -10,8 +10,6 @@ import java.util.List;
 import java.util.logging.Logger;
 import java.util.stream.Collectors;
 
-import singleresponsibility.before.FileReaderWriter;
-
 public class PDFReaderWriter
 {
 	private final static Logger LOGGER = Logger.getLogger(PDFReaderWriter.class.getName());
