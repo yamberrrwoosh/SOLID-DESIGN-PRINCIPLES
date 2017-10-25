@@ -37,7 +37,6 @@ public class FileReaderWriter
 			{
 				final List<File> files = Arrays.asList(file.listFiles());
 				files.sort((File o1, File o2) -> o1.getName().compareTo(o2.getName()));
-				System.out.println("Reading DOCx");
 				fileNames = files.stream().map(x -> x.getName()).collect(Collectors.toList());
 			}
 		} else if (fileType == "XML")

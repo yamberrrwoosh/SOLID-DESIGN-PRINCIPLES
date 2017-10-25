@@ -16,5 +16,26 @@ public class FileReaderWriterTest {
 		assertFalse(fileNames.isEmpty());
 		fileNames.forEach(x -> System.out.println(x));
 	}
+	
+	@Test
+	public void testDOCRead() {
+		List<String> fileNames = readerWriter.read("DOC");
+		assertFalse(fileNames.isEmpty());
+		fileNames.forEach(x -> System.out.println(x));
+	}
+	
+	@Test
+	public void testXMLRead() {
+		List<String> fileNames = readerWriter.read("XML");
+		assertFalse(fileNames.isEmpty());
+		fileNames.forEach(x -> System.out.println(x));
+	}
+	
+	@Test
+	public void testOthersRead() {
+		List<String> fileNames = readerWriter.read("OTHERS");
+		assertFalse(fileNames.isEmpty());
+		fileNames.forEach(x -> System.out.println(x));
+	}
 
 }
