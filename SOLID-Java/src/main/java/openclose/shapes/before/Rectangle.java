@@ -2,6 +2,11 @@ package openclose.shapes.before;
 
 public class Rectangle
 {
+	public Rectangle(double height, double width) {
+		super();
+		this.height = height;
+		this.width = width;
+	}
 	private double height;
 	private double width;
 	

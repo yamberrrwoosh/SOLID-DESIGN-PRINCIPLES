@@ -2,6 +2,12 @@ package openclose.shapes.after;
 
 public class Rectangle implements Shape
 {
+	public Rectangle(double height, double width) {
+		super();
+		this.height = height;
+		this.width = width;
+	}
+
 	private double height;
 	private double width;
 

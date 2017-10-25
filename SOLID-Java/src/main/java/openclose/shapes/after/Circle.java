@@ -2,6 +2,11 @@ package openclose.shapes.after;
 
 public class Circle implements Shape
 {
+	public Circle(double radius) {
+		super();
+		this.radius = radius;
+	}
+
 	private double radius;
 
 	public double getRadius()
