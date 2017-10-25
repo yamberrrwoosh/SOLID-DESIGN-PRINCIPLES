@@ -1,23 +1,28 @@
 package singleresponsibility.after;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class FileReaderWriter
 {
 
-	public void read(String fileType)
+	public List<String> read(String fileType)
 	{
+		List<String> fileNames = new ArrayList<>();
 		if (fileType == "PDF")
 		{
-			new PDFReaderWriter().read();
+			fileNames = new PDFReaderWriter().read();
 		} else if (fileType == "DOC")
 		{
-			new DOCReaderWriter().read();
+			fileNames = new DOCReaderWriter().read();
 		} else if (fileType == "XML")
 		{
-			new XMLReaderWriter().read();
+			fileNames = new XMLReaderWriter().read();
 		} else
 		{
-			new OthersReaderWriter().read();
+			fileNames = new OthersReaderWriter().read();
 		}
+		return fileNames;
 	}
 
 	public void write(String fileType)
