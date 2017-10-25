@@ -4,27 +4,33 @@ import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.net.URL;
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.logging.Logger;
+import java.util.stream.Collectors;
 
 public class FileReaderWriter
 {
-
-	public void read(final String fileType)
+	private final static Logger LOGGER = Logger.getLogger(FileReaderWriter.class.getName());
+	
+	public List<String> read(final String fileType)
 	{
+		List<String> fileNames = new ArrayList<>();
 		if (fileType == "PDF")
 		{
 			final URL resource = getClass().getResource("/pdfs");
 			final File file = new File(resource.getPath());
 			if (file.exists() && file.isDirectory())
 			{
+				LOGGER.info("Reading PDFs");
 				final List<File> files = Arrays.asList(file.listFiles());
 				files.sort((File o1, File o2) -> o1.getName().compareTo(o2.getName()));
-				System.out.println("Reading PDFs");
-				files.forEach(x -> System.out.println(x.getName()));
+				fileNames = files.stream().map(x -> x.getName()).collect(Collectors.toList());
 			}
 		} else if (fileType == "DOC")
 		{
+			LOGGER.info("Reading DOCs");
 			final URL resource = getClass().getResource("/docs");
 			final File file = new File(resource.getPath());
 			if (file.exists() && file.isDirectory())
@@ -32,18 +38,18 @@ public class FileReaderWriter
 				final List<File> files = Arrays.asList(file.listFiles());
 				files.sort((File o1, File o2) -> o1.getName().compareTo(o2.getName()));
 				System.out.println("Reading DOCx");
-				files.forEach(x -> System.out.println(x.getName()));
+				fileNames = files.stream().map(x -> x.getName()).collect(Collectors.toList());
 			}
 		} else if (fileType == "XML")
 		{
+			LOGGER.info("Reading XMLs");
 			final URL resource = getClass().getResource("/xmls");
 			final File file = new File(resource.getPath());
 			if (file.exists() && file.isDirectory())
 			{
 				final List<File> files = Arrays.asList(file.listFiles());
 				files.sort((File o1, File o2) -> o1.getName().compareTo(o2.getName()));
-				System.out.println("Reading XMLs");
-				files.forEach(x -> System.out.println(x.getName()));
+				fileNames = files.stream().map(x -> x.getName()).collect(Collectors.toList());
 			}
 		} else
 		{
@@ -51,12 +57,13 @@ public class FileReaderWriter
 			final File file = new File(resource.getPath());
 			if (file.exists() && file.isDirectory())
 			{
+				LOGGER.info("Reading Other files");
 				final List<File> files = Arrays.asList(file.listFiles());
 				files.sort((File o1, File o2) -> o1.getName().compareTo(o2.getName()));
-				System.out.println("Reading Others");
-				files.forEach(x -> System.out.println(x.getName()));
+				fileNames = files.stream().map(x -> x.getName()).collect(Collectors.toList());
 			}
 		}
+		return fileNames;
 	}
 
 	public void write(String fileType)
@@ -74,7 +81,6 @@ public class FileReaderWriter
 					System.out.println("File already exists.");
 				}
 
-				// Write Content
 				final FileWriter writer = new FileWriter(file);
 				writer.write("Test pdf");
 				writer.close();
@@ -96,7 +102,6 @@ public class FileReaderWriter
 					System.out.println("File already exists.");
 				}
 
-				// Write Content
 				final FileWriter writer = new FileWriter(file);
 				writer.write("Test doc");
 				writer.close();
@@ -117,7 +122,6 @@ public class FileReaderWriter
 					System.out.println("File already exists.");
 				}
 
-				// Write Content
 				final FileWriter writer = new FileWriter(file);
 				writer.write("Test xml");
 				writer.close();
@@ -138,7 +142,6 @@ public class FileReaderWriter
 					System.out.println("File already exists.");
 				}
 
-				// Write Content
 				final FileWriter writer = new FileWriter(file);
 				writer.write("Test txt");
 				writer.close();
