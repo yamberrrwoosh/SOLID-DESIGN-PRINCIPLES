@@ -33,7 +33,7 @@ public class DOCReaderWriter
 	{
 		try
 		{
-			final File file = new File("resource/docs/MyDOC.doc");
+			final File file = new File("src/main/resources/docs/MyDOC.doc");
 			if (file.createNewFile())
 			{
 				LOGGER.info("File is created!");

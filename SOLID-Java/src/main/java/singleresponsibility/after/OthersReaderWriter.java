@@ -33,7 +33,7 @@ public class OthersReaderWriter
 	{
 		try
 		{
-			final File file = new File("resource/others/MyTxt.txt");
+			final File file = new File("src/main/resources/others/MyTxt.txt");
 			if (file.createNewFile())
 			{
 				LOGGER.info("File is created!");

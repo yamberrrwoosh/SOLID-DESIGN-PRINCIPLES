@@ -67,7 +67,7 @@ public class FileReaderWriter
 
 	public void write(String fileType)
 	{
-		String path = "resource/" ;
+		String path = "src/main/resources/" ;
 		if (fileType == "PDF")
 		{
 			try

@@ -34,7 +34,7 @@ public class PDFReaderWriter implements FileReaderWriter
 	{
 		try
 		{
-			final File file = new File("resource/pdfs/MyPDF.pdf");
+			final File file = new File("src/main/resources/pdfs/MyPDF.pdf");
 			if (file.createNewFile())
 			{
 				LOGGER.info("File is created!");

@@ -33,7 +33,7 @@ public class XMLReaderWriter implements FileReaderWriter
 	{
 		try
 		{
-			final File file = new File("resource/xmls/MyXML.xml");
+			final File file = new File("src/main/resources/xmls/MyXML.xml");
 			if (file.createNewFile())
 			{
 				LOGGER.info("File is created!");
