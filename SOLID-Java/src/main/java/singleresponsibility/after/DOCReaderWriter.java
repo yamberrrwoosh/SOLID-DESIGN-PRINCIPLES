@@ -12,7 +12,7 @@ import java.util.stream.Collectors;
 
 public class DOCReaderWriter
 {
-	private final static Logger LOGGER = Logger.getLogger(PDFReaderWriter.class.getName());
+	private final static Logger LOGGER = Logger.getLogger(DOCReaderWriter.class.getName());
 	
 	public List<String> read()
 	{
@@ -33,16 +33,15 @@ public class DOCReaderWriter
 	{
 		try
 		{
-			final File file = new File("MyDOC.doc");
+			final File file = new File("resource/docs/MyDOC.doc");
 			if (file.createNewFile())
 			{
-				System.out.println("File is created!");
+				LOGGER.info("File is created!");
 			} else
 			{
-				System.out.println("File already exists.");
+				LOGGER.info("File already exists.");
 			}
 
-			// Write Content
 			final FileWriter writer = new FileWriter(file);
 			writer.write("Test doc");
 			writer.close();

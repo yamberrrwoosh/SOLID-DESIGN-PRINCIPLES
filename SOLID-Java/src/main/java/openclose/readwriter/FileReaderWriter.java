@@ -1,7 +1,9 @@
 package openclose.readwriter;
 
+import java.util.List;
+
 public interface FileReaderWriter
 {
-	void read();
+	List<String> read();
 	void write();
 }

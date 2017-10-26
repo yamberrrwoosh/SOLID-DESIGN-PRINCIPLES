@@ -37,5 +37,25 @@ public class FileReaderWriterTest {
 		assertFalse(fileNames.isEmpty());
 		fileNames.forEach(x -> System.out.println(x));
 	}
+	
+	@Test
+	public void testPDFWrite() {
+		readerWriter.write("PDF");
+	}
+	
+	@Test
+	public void testDOCWrite() {
+		readerWriter.write("DOC");
+	}
+	
+	@Test
+	public void testXMLWrite() {
+		readerWriter.write("XML");
+	}
+	
+	@Test
+	public void tesOtherWrite() {
+		readerWriter.write("OTHER");
+	}
 
 }

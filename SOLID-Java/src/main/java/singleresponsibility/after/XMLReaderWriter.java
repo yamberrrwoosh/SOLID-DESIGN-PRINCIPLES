@@ -12,7 +12,7 @@ import java.util.stream.Collectors;
 
 public class XMLReaderWriter
 {
-	private final static Logger LOGGER = Logger.getLogger(PDFReaderWriter.class.getName());
+	private final static Logger LOGGER = Logger.getLogger(XMLReaderWriter.class.getName());
 	
 	public List<String> read()
 	{
@@ -33,16 +33,15 @@ public class XMLReaderWriter
 	{
 		try
 		{
-			final File file = new File("MyXML.xml");
+			final File file = new File("resource/xmls/MyXML.xml");
 			if (file.createNewFile())
 			{
-				System.out.println("File is created!");
+				LOGGER.info("File is created!");
 			} else
 			{
-				System.out.println("File already exists.");
+				LOGGER.info("File already exists.");
 			}
 
-			// Write Content
 			final FileWriter writer = new FileWriter(file);
 			writer.write("Test xml");
 			writer.close();

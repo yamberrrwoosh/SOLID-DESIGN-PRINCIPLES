@@ -67,17 +67,18 @@ public class FileReaderWriter
 
 	public void write(String fileType)
 	{
+		String path = "resource/" ;
 		if (fileType == "PDF")
 		{
 			try
 			{
-				final File file = new File("MyPDF.pdf");
+				final File file = new File(path + "pdfs/MyPDF.pdf");
 				if (file.createNewFile())
 				{
-					System.out.println("File is created!");
+					LOGGER.info("File is created!");
 				} else
 				{
-					System.out.println("File already exists.");
+					LOGGER.info("File already exists.");
 				}
 
 				final FileWriter writer = new FileWriter(file);
@@ -92,13 +93,13 @@ public class FileReaderWriter
 		{
 			try
 			{
-				final File file = new File("MyDOC.doc");
+				final File file = new File(path + "docs/MyDOC.doc");
 				if (file.createNewFile())
 				{
-					System.out.println("File is created!");
+					LOGGER.info("File is created!");
 				} else
 				{
-					System.out.println("File already exists.");
+					LOGGER.info("File already exists.");
 				}
 
 				final FileWriter writer = new FileWriter(file);
@@ -112,13 +113,13 @@ public class FileReaderWriter
 		{
 			try
 			{
-				final File file = new File("MyXML.xml");
+				final File file = new File(path + "xmls/MyXML.xml");
 				if (file.createNewFile())
 				{
-					System.out.println("File is created!");
+					LOGGER.info("File is created!");
 				} else
 				{
-					System.out.println("File already exists.");
+					LOGGER.info("File already exists.");
 				}
 
 				final FileWriter writer = new FileWriter(file);
@@ -132,13 +133,13 @@ public class FileReaderWriter
 		{
 			try
 			{
-				final File file = new File("MyTxt.txt");
+				final File file = new File(path + "others/MyTxt.txt");
 				if (file.createNewFile())
 				{
-					System.out.println("File is created!");
+					LOGGER.info("File is created!");
 				} else
 				{
-					System.out.println("File already exists.");
+					LOGGER.info("File already exists.");
 				}
 
 				final FileWriter writer = new FileWriter(file);

@@ -33,16 +33,15 @@ public class PDFReaderWriter
 	{
 		try
 		{
-			final File file = new File("MyPDF.pdf");
+			final File file = new File("resource/pdfs/MyPDF.pdf");
 			if (file.createNewFile())
 			{
-				System.out.println("File is created!");
+				LOGGER.info("File is created!");
 			} else
 			{
-				System.out.println("File already exists.");
+				LOGGER.info("File already exists.");
 			}
-
-			// Write Content
+			
 			final FileWriter writer = new FileWriter(file);
 			writer.write("Test pdf");
 			writer.close();
