@@ -69,7 +69,7 @@ public class FileReaderWriter
 	public void write(String fileType) throws Exception
 	{
 		FileWriter writer = null;
-		String path = "src/main/resources/" ;
+		final String path = "src/main/resources/" ;
 		if (fileType == "PDF")
 		{
 			try 
@@ -85,7 +85,6 @@ public class FileReaderWriter
 				
 				writer = new FileWriter(file);
 				writer.write("Test pdf");
-				
 			} catch (IOException e)
 			{
 				e.printStackTrace();
@@ -110,7 +109,6 @@ public class FileReaderWriter
 
 				writer = new FileWriter(file);
 				writer.write("Test doc");
-				writer.close();
 			} catch (IOException e)
 			{
 				e.printStackTrace();
@@ -133,7 +131,6 @@ public class FileReaderWriter
 
 				writer = new FileWriter(file);
 				writer.write("Test xml");
-				writer.close();
 			} catch (IOException e)
 			{
 				e.printStackTrace();
