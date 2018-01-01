@@ -7,6 +7,7 @@ import java.net.URL;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.logging.Level;
 import java.util.logging.Logger;
 import java.util.stream.Collectors;
 
@@ -30,7 +31,7 @@ public class PDFReaderWriter implements FileReaderWriter
 		return fileNames;
 	}
 
-	public void write() throws IOException
+	public void write() throws Exception
 	{
 		FileWriter writer = null;
 		try
@@ -41,14 +42,14 @@ public class PDFReaderWriter implements FileReaderWriter
 				LOGGER.info("File is created!");
 			} else
 			{
-				LOGGER.info("File already exists.");
+				throw new Exception("File already exists.");
 			}
 
 			writer = new FileWriter(file);
 			writer.write("Test pdf");
 		} catch (IOException e)
 		{
-			e.printStackTrace();
+			LOGGER.log(Level.SEVERE, e.getMessage());
 		}
 		finally {
 			writer.close();

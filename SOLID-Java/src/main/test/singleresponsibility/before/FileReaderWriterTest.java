@@ -52,7 +52,7 @@ public class FileReaderWriterTest {
 	public void testDOCWrite() {
 		try {
 			readerWriter.write("DOC");
-		} catch (IOException e) {
+		} catch (Exception e) {
 			e.printStackTrace();
 		}
 	}
@@ -61,7 +61,7 @@ public class FileReaderWriterTest {
 	public void testXMLWrite() {
 		try {
 			readerWriter.write("XML");
-		} catch (IOException e) {
+		} catch (Exception e) {
 			e.printStackTrace();
 		}
 	}
@@ -70,7 +70,7 @@ public class FileReaderWriterTest {
 	public void tesOtherWrite() {
 		try {
 			readerWriter.write("OTHER");
-		} catch (IOException e) {
+		} catch (Exception e) {
 			e.printStackTrace();
 		}
 	}

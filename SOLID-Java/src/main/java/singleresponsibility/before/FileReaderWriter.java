@@ -7,6 +7,7 @@ import java.net.URL;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.logging.Level;
 import java.util.logging.Logger;
 import java.util.stream.Collectors;
 
@@ -65,7 +66,7 @@ public class FileReaderWriter
 		return fileNames;
 	}
 
-	public void write(String fileType) throws IOException
+	public void write(String fileType) throws Exception
 	{
 		FileWriter writer = null;
 		String path = "src/main/resources/" ;
@@ -150,15 +151,13 @@ public class FileReaderWriter
 					LOGGER.info("File is created!");
 				} else
 				{
-					LOGGER.info("File already exists.");
+					throw new Exception("File already exists.");
 				}
-
 				writer = new FileWriter(file);
 				writer.write("Test txt");
-				writer.close();
 			} catch (IOException e)
 			{
-				e.printStackTrace();
+				LOGGER.log(Level.SEVERE, e.getMessage());
 			}
 			finally {
 				writer.close();
