@@ -53,22 +53,38 @@ public class FileReaderWriterTest {
 	
 	@Test
 	public void testPDFWrite() {
-		readerWriter.write("PDF");
+		try {
+			readerWriter.write("PDF");
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
 	}
 	
 	@Test
 	public void testDOCWrite() {
-		readerWriter.write("DOC");
+		try {
+			readerWriter.write("DOC");
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
 	}
 	
 	@Test
 	public void testXMLWrite() {
-		readerWriter.write("XML");
+		try {
+			readerWriter.write("XML");
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
 	}
 	
 	@Test
 	public void tesOtherWrite() {
-		readerWriter.write("OTHER");
+		try {
+			readerWriter.write("OTHER");
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
 	}
 
 }

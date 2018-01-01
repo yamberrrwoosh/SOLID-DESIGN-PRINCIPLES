@@ -29,8 +29,9 @@ public class OthersReaderWriter implements FileReaderWriter
 		return fileNames;
 	}
 
-	public void write()
+	public void write() throws IOException
 	{
+		FileWriter writer = null;
 		try
 		{
 			final File file = new File("src/main/resources/others/MyTxt.txt");
@@ -42,12 +43,14 @@ public class OthersReaderWriter implements FileReaderWriter
 				LOGGER.info("File already exists.");
 			}
 
-			final FileWriter writer = new FileWriter(file);
+			writer = new FileWriter(file);
 			writer.write("Test txt");
-			writer.close();
 		} catch (IOException e)
 		{
 			e.printStackTrace();
+		}
+		finally {
+			writer.close();
 		}
 	}
 }

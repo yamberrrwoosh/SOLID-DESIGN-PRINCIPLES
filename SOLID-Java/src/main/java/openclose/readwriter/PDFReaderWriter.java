@@ -30,8 +30,9 @@ public class PDFReaderWriter implements FileReaderWriter
 		return fileNames;
 	}
 
-	public void write()
+	public void write() throws IOException
 	{
+		FileWriter writer = null;
 		try
 		{
 			final File file = new File("src/main/resources/pdfs/MyPDF.pdf");
@@ -43,12 +44,14 @@ public class PDFReaderWriter implements FileReaderWriter
 				LOGGER.info("File already exists.");
 			}
 
-			final FileWriter writer = new FileWriter(file);
+			writer = new FileWriter(file);
 			writer.write("Test pdf");
-			writer.close();
 		} catch (IOException e)
 		{
 			e.printStackTrace();
+		}
+		finally {
+			writer.close();
 		}
 	}
 }

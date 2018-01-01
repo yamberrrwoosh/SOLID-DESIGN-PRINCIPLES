@@ -2,6 +2,7 @@ package singleresponsibility.before;
 
 import static org.junit.Assert.assertFalse;
 
+import java.io.IOException;
 import java.util.List;
 
 import org.junit.Test;
@@ -40,22 +41,38 @@ public class FileReaderWriterTest {
 	
 	@Test
 	public void testPDFWrite() {
-		readerWriter.write("PDF");
+		try {
+			readerWriter.write("PDF");
+		} catch (Exception e){
+			e.printStackTrace();
+		}
 	}
 	
 	@Test
 	public void testDOCWrite() {
-		readerWriter.write("DOC");
+		try {
+			readerWriter.write("DOC");
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
 	}
 	
 	@Test
 	public void testXMLWrite() {
-		readerWriter.write("XML");
+		try {
+			readerWriter.write("XML");
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
 	}
 	
 	@Test
 	public void tesOtherWrite() {
-		readerWriter.write("OTHER");
+		try {
+			readerWriter.write("OTHER");
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
 	}
 
 }

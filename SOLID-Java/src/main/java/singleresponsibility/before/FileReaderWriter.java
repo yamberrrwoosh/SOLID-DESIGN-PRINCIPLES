@@ -65,12 +65,13 @@ public class FileReaderWriter
 		return fileNames;
 	}
 
-	public void write(String fileType)
+	public void write(String fileType) throws IOException
 	{
+		FileWriter writer = null;
 		String path = "src/main/resources/" ;
 		if (fileType == "PDF")
 		{
-			try
+			try 
 			{
 				final File file = new File(path + "pdfs/MyPDF.pdf");
 				if (file.createNewFile())
@@ -80,17 +81,21 @@ public class FileReaderWriter
 				{
 					LOGGER.info("File already exists.");
 				}
-
-				final FileWriter writer = new FileWriter(file);
+				
+				writer = new FileWriter(file);
 				writer.write("Test pdf");
-				writer.close();
+				
 			} catch (IOException e)
 			{
 				e.printStackTrace();
 			}
+			finally {
+				writer.close();
+			}
 
 		} else if (fileType == "DOC")
 		{
+			
 			try
 			{
 				final File file = new File(path + "docs/MyDOC.doc");
@@ -102,12 +107,15 @@ public class FileReaderWriter
 					LOGGER.info("File already exists.");
 				}
 
-				final FileWriter writer = new FileWriter(file);
+				writer = new FileWriter(file);
 				writer.write("Test doc");
 				writer.close();
 			} catch (IOException e)
 			{
 				e.printStackTrace();
+			}
+			finally {
+				writer.close();
 			}
 		} else if (fileType == "XML")
 		{
@@ -122,12 +130,15 @@ public class FileReaderWriter
 					LOGGER.info("File already exists.");
 				}
 
-				final FileWriter writer = new FileWriter(file);
+				writer = new FileWriter(file);
 				writer.write("Test xml");
 				writer.close();
 			} catch (IOException e)
 			{
 				e.printStackTrace();
+			}
+			finally {
+				writer.close();
 			}
 		} else
 		{
@@ -142,12 +153,15 @@ public class FileReaderWriter
 					LOGGER.info("File already exists.");
 				}
 
-				final FileWriter writer = new FileWriter(file);
+				writer = new FileWriter(file);
 				writer.write("Test txt");
 				writer.close();
 			} catch (IOException e)
 			{
 				e.printStackTrace();
+			}
+			finally {
+				writer.close();
 			}
 		}
 	}

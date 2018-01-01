@@ -1,5 +1,6 @@
 package singleresponsibility.after;
 
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -25,7 +26,7 @@ public class FileReaderWriter
 		return fileNames;
 	}
 
-	public void write(String fileType)
+	public void write(String fileType) throws IOException
 	{
 		if (fileType == "PDF")
 		{

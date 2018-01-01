@@ -19,11 +19,13 @@ public class FileReaderWriterAction
 		return fileNames;
 	}
 
-	public void write(String fileType)
+	public void write(String fileType) throws Exception
 	{
 		if (readerWriter.containsKey(fileType))
 		{
 			readerWriter.get(fileType).write();
+		} else {
+			throw new Exception("File Not Supported");
 		}
 	}
 

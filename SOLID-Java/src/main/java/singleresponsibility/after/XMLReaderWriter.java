@@ -29,8 +29,9 @@ public class XMLReaderWriter
 		return fileNames;
 	}
 
-	public void write()
+	public void write() throws IOException
 	{
+		FileWriter writer = null;
 		try
 		{
 			final File file = new File("src/main/resources/xmls/MyXML.xml");
@@ -42,12 +43,14 @@ public class XMLReaderWriter
 				LOGGER.info("File already exists.");
 			}
 
-			final FileWriter writer = new FileWriter(file);
+			writer = new FileWriter(file);
 			writer.write("Test xml");
-			writer.close();
 		} catch (IOException e)
 		{
 			e.printStackTrace();
+		}
+		finally {
+			writer.close();
 		}
 	}
 }
