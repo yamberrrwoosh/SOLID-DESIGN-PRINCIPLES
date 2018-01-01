@@ -1,4 +1,4 @@
-package openclose.readwriter;
+package liskov.after.readwriter;
 
 import java.io.File;
 import java.io.FileWriter;

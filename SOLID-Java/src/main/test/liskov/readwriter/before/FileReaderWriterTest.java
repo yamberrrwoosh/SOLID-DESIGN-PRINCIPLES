@@ -1,14 +1,34 @@
-package singleresponsibility.before;
+package liskov.readwriter.before;
 
 import static org.junit.Assert.assertFalse;
 
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
+import org.junit.Before;
 import org.junit.Test;
+
+import liskov.before.readwriter.DOCReader;
+import liskov.before.readwriter.FileReaderWriter;
+import liskov.before.readwriter.FileReaderWriterAction;
+import liskov.before.readwriter.OthersReaderWriter;
+import liskov.before.readwriter.PDFReaderWriter;
+import liskov.before.readwriter.XMLReaderWriter;
 
 public class FileReaderWriterTest {
 	
-	private FileReaderWriter readerWriter = new FileReaderWriter();
+	private FileReaderWriterAction readerWriter = new FileReaderWriterAction();
+	
+	@Before
+	public void setup() {
+		Map<String, FileReaderWriter> fileReaderWriterMap = new HashMap<>();
+		fileReaderWriterMap.put("PDF", new PDFReaderWriter());
+		fileReaderWriterMap.put("DOC", new DOCReader());
+		fileReaderWriterMap.put("XML", new XMLReaderWriter());
+		fileReaderWriterMap.put("OTHER", new OthersReaderWriter());
+		readerWriter.setReaderWriter(fileReaderWriterMap);
+	}
 	
 	@Test
 	public void testPDFRead() {
@@ -33,7 +53,7 @@ public class FileReaderWriterTest {
 	
 	@Test
 	public void testOthersRead() {
-		List<String> fileNames = readerWriter.read("OTHERS");
+		List<String> fileNames = readerWriter.read("OTHER");
 		assertFalse(fileNames.isEmpty());
 		fileNames.forEach(x -> System.out.println(x));
 	}
@@ -42,7 +62,7 @@ public class FileReaderWriterTest {
 	public void testPDFWrite() {
 		try {
 			readerWriter.write("PDF");
-		} catch (Exception e){
+		} catch (Exception e) {
 			e.printStackTrace();
 		}
 	}

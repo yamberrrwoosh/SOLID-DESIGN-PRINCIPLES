@@ -160,7 +160,9 @@ public class FileReaderWriter
 				LOGGER.log(Level.SEVERE, e.getMessage());
 			}
 			finally {
-				writer.close();
+				if(writer != null) {
+					writer.close();
+				}
 			}
 		}
 	}
