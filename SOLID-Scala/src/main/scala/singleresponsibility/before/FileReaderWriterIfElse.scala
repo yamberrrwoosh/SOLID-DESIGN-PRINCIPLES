@@ -10,7 +10,7 @@ import scala.util.control.NonFatal
 import scala.util.Try
 
 class FileReaderWriterIfElse {
-
+ 
   val LOGGER = Logger.getLogger(this.getClass.getName);
 
   def read(fileType: String): List[String] = {
