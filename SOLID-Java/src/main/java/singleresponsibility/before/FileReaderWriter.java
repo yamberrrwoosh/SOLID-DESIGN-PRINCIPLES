@@ -90,7 +90,9 @@ public class FileReaderWriter
 				LOGGER.log(Level.SEVERE, e.getMessage());
 			}
 			finally {
-				writer.close();
+				if(writer != null) {
+					writer.close();
+				}
 			}
 
 		} else if (fileType == "DOC")
@@ -114,7 +116,9 @@ public class FileReaderWriter
 				LOGGER.log(Level.SEVERE, e.getMessage());
 			}
 			finally {
-				writer.close();
+				if(writer != null) {
+					writer.close();
+				}
 			}
 		} else if (fileType == "XML")
 		{
@@ -136,7 +140,9 @@ public class FileReaderWriter
 				LOGGER.log(Level.SEVERE, e.getMessage());
 			}
 			finally {
-				writer.close();
+				if(writer != null) {
+					writer.close();
+				}
 			}
 		} else
 		{
