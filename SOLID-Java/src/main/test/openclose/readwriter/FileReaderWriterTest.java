@@ -10,9 +10,9 @@ import org.junit.Before;
 import org.junit.Test;
 
 public class FileReaderWriterTest {
-	
+
 	private FileReaderWriterAction readerWriter = new FileReaderWriterAction();
-	
+
 	@Before
 	public void setup() {
 		Map<String, FileReaderWriter> fileReaderWriterMap = new HashMap<>();
@@ -22,35 +22,35 @@ public class FileReaderWriterTest {
 		fileReaderWriterMap.put("OTHER", new OthersReaderWriter());
 		readerWriter.setReaderWriter(fileReaderWriterMap);
 	}
-	
+
 	@Test
 	public void testPDFRead() {
 		List<String> fileNames = readerWriter.read("PDF");
 		assertFalse(fileNames.isEmpty());
 		fileNames.forEach(x -> System.out.println(x));
 	}
-	
+
 	@Test
 	public void testDOCRead() {
 		List<String> fileNames = readerWriter.read("DOC");
 		assertFalse(fileNames.isEmpty());
 		fileNames.forEach(x -> System.out.println(x));
 	}
-	
+
 	@Test
 	public void testXMLRead() {
 		List<String> fileNames = readerWriter.read("XML");
 		assertFalse(fileNames.isEmpty());
 		fileNames.forEach(x -> System.out.println(x));
 	}
-	
+
 	@Test
 	public void testOthersRead() {
 		List<String> fileNames = readerWriter.read("OTHER");
 		assertFalse(fileNames.isEmpty());
 		fileNames.forEach(x -> System.out.println(x));
 	}
-	
+
 	@Test
 	public void testPDFWrite() {
 		try {
@@ -59,32 +59,20 @@ public class FileReaderWriterTest {
 			e.printStackTrace();
 		}
 	}
-	
+
 	@Test
-	public void testDOCWrite() {
-		try {
-			readerWriter.write("DOC");
-		} catch (Exception e) {
-			e.printStackTrace();
-		}
+	public void testDOCWrite() throws Exception {
+		readerWriter.write("DOC");
 	}
-	
+
 	@Test
-	public void testXMLWrite() {
-		try {
-			readerWriter.write("XML");
-		} catch (Exception e) {
-			e.printStackTrace();
-		}
+	public void testXMLWrite() throws Exception {
+		readerWriter.write("XML");
 	}
-	
+
 	@Test
-	public void tesOtherWrite() {
-		try {
-			readerWriter.write("OTHER");
-		} catch (Exception e) {
-			e.printStackTrace();
-		}
+	public void tesOtherWrite() throws Exception {
+		readerWriter.write("OTHER");
 	}
 
 }
