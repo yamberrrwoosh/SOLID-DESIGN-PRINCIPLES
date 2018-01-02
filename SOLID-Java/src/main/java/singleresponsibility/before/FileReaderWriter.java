@@ -87,7 +87,7 @@ public class FileReaderWriter
 				writer.write("Test pdf");
 			} catch (IOException e)
 			{
-				e.printStackTrace();
+				LOGGER.log(Level.SEVERE, e.getMessage());
 			}
 			finally {
 				writer.close();
@@ -111,7 +111,7 @@ public class FileReaderWriter
 				writer.write("Test doc");
 			} catch (IOException e)
 			{
-				e.printStackTrace();
+				LOGGER.log(Level.SEVERE, e.getMessage());
 			}
 			finally {
 				writer.close();
@@ -133,7 +133,7 @@ public class FileReaderWriter
 				writer.write("Test xml");
 			} catch (IOException e)
 			{
-				e.printStackTrace();
+				LOGGER.log(Level.SEVERE, e.getMessage());
 			}
 			finally {
 				writer.close();
