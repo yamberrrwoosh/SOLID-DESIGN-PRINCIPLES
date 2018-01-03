@@ -1,0 +1,962 @@
+[0m[[0m[0mdebug[0m] [0m[0m:: resolving dependencies :: default#solid-scala$sources_javadoc;0.1-SNAPSHOT[0m
+[0m[[0m[0mdebug[0m] [0m[0m	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool][0m
+[0m[[0m[0mdebug[0m] [0m[0m	validate = true[0m
+[0m[[0m[0mdebug[0m] [0m[0m	refresh = false[0m
+[0m[[0m[0mdebug[0m] [0m[0mresolving dependencies for configuration 'compile'[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for default#solid-scala$sources_javadoc;0.1-SNAPSHOT [compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.12.3 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: org.scala-lang#scala-reflect;2.12.3 {compile=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime=[compile, runtime(*), master(compile), runtime, compile(*), master], test=[compile, runtime(*), master(compile), runtime, compile(*), master], compile-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], scala-tool=[compile, runtime(*), master(compile), runtime, compile(*), master]}[0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: module revision found in cache: org.scala-lang#scala-reflect;2.12.3[0m
+[0m[[0m[0mdebug[0m] [0m[0m	found org.scala-lang#scala-reflect;2.12.3 in sbt-chain[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[2.12.3] org.scala-lang#scala-reflect;2.12.3[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.12.3 [compile->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.12.3 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.12.3 [compile->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.12.3 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.12.3 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.12.3 [compile->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.12.3 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalactic#scalactic_2.12;3.0.4 [compile->default][0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: org.scalactic#scalactic_2.12;3.0.4 {compile=[default, compile, runtime, default(compile), master], runtime=[default, compile, runtime, default(compile), master], test=[default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master], compile-internal=[default, compile, runtime, default(compile), master], runtime-internal=[default, compile, runtime, default(compile), master], test-internal=[default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master]}[0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: module revision found in cache: org.scalactic#scalactic_2.12;3.0.4[0m
+[0m[[0m[0mdebug[0m] [0m[0m	found org.scalactic#scalactic_2.12;3.0.4 in sbt-chain[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalactic#scalactic_2.12;3.0.4 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalactic#scalactic_2.12;3.0.4 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalactic#scalactic_2.12;3.0.4 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalactic#scalactic_2.12;3.0.4 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalactic#scalactic_2.12;3.0.4 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalactic#scalactic_2.12;3.0.4 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalactic#scalactic_2.12;3.0.4 [compile->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalactic#scalactic_2.12;3.0.4 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalactic#scalactic_2.12;3.0.4 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalactic#scalactic_2.12;3.0.4 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalactic#scalactic_2.12;3.0.4 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [compile->default][0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: org.scala-lang#scala-library;2.12.3 {compile=[default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master], runtime=[default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master], test=[default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master], compile-internal=[default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master], runtime-internal=[default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master], test-internal=[default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master], scala-tool=[default, compile, runtime(*), master(compile), runtime, optional, optional(default), compile(*), master]}[0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: module revision found in cache: org.scala-lang#scala-library;2.12.3[0m
+[0m[[0m[0mdebug[0m] [0m[0m	found org.scala-lang#scala-library;2.12.3 in sbt-chain[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[2.12.3] org.scala-lang#scala-library;2.12.3[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [compile->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [compile->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [compile->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [compile->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0mresolving dependencies for configuration 'runtime'[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for default#solid-scala$sources_javadoc;0.1-SNAPSHOT [runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for default#solid-scala$sources_javadoc;0.1-SNAPSHOT [compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.12.3 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.12.3 [compile->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.12.3 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.12.3 [compile->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.12.3 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.12.3 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.12.3 [compile->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.12.3 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalactic#scalactic_2.12;3.0.4 [compile->default][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalactic#scalactic_2.12;3.0.4 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalactic#scalactic_2.12;3.0.4 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalactic#scalactic_2.12;3.0.4 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalactic#scalactic_2.12;3.0.4 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalactic#scalactic_2.12;3.0.4 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalactic#scalactic_2.12;3.0.4 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalactic#scalactic_2.12;3.0.4 [compile->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalactic#scalactic_2.12;3.0.4 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalactic#scalactic_2.12;3.0.4 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalactic#scalactic_2.12;3.0.4 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalactic#scalactic_2.12;3.0.4 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [compile->default][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [compile->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [compile->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [compile->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [compile->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.12.3 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.12.3 [runtime->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.12.3 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.12.3 [runtime->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.12.3 [runtime->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.12.3 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.12.3 [runtime->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.12.3 [runtime->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalactic#scalactic_2.12;3.0.4 [runtime->default][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalactic#scalactic_2.12;3.0.4 [runtime->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalactic#scalactic_2.12;3.0.4 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalactic#scalactic_2.12;3.0.4 [runtime->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalactic#scalactic_2.12;3.0.4 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalactic#scalactic_2.12;3.0.4 [runtime->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalactic#scalactic_2.12;3.0.4 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalactic#scalactic_2.12;3.0.4 [runtime->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalactic#scalactic_2.12;3.0.4 [runtime->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalactic#scalactic_2.12;3.0.4 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalactic#scalactic_2.12;3.0.4 [runtime->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalactic#scalactic_2.12;3.0.4 [runtime->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [runtime->default][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [runtime->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [runtime->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [runtime->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [runtime->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [runtime->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [runtime->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [runtime->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [runtime->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [runtime->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [runtime->master][0m
+[0m[[0m[0mdebug[0m] [0m[0mresolving dependencies for configuration 'test'[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for default#solid-scala$sources_javadoc;0.1-SNAPSHOT [test][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for default#solid-scala$sources_javadoc;0.1-SNAPSHOT [runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for default#solid-scala$sources_javadoc;0.1-SNAPSHOT [compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.12.3 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.12.3 [compile->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.12.3 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.12.3 [compile->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.12.3 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.12.3 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.12.3 [compile->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.12.3 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalactic#scalactic_2.12;3.0.4 [compile->default][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalactic#scalactic_2.12;3.0.4 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalactic#scalactic_2.12;3.0.4 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalactic#scalactic_2.12;3.0.4 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalactic#scalactic_2.12;3.0.4 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalactic#scalactic_2.12;3.0.4 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalactic#scalactic_2.12;3.0.4 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalactic#scalactic_2.12;3.0.4 [compile->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalactic#scalactic_2.12;3.0.4 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalactic#scalactic_2.12;3.0.4 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalactic#scalactic_2.12;3.0.4 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalactic#scalactic_2.12;3.0.4 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalactic#scalactic_2.12;3.0.4 [compile->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalactic#scalactic_2.12;3.0.4 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalactic#scalactic_2.12;3.0.4 [compile->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalactic#scalactic_2.12;3.0.4 [compile->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [compile->default][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [compile->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [compile->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [compile->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [compile->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.12.3 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.12.3 [runtime->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.12.3 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.12.3 [runtime->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.12.3 [runtime->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.12.3 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.12.3 [runtime->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.12.3 [runtime->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalactic#scalactic_2.12;3.0.4 [runtime->default][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalactic#scalactic_2.12;3.0.4 [runtime->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalactic#scalactic_2.12;3.0.4 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalactic#scalactic_2.12;3.0.4 [runtime->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalactic#scalactic_2.12;3.0.4 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalactic#scalactic_2.12;3.0.4 [runtime->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalactic#scalactic_2.12;3.0.4 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalactic#scalactic_2.12;3.0.4 [runtime->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalactic#scalactic_2.12;3.0.4 [runtime->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalactic#scalactic_2.12;3.0.4 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalactic#scalactic_2.12;3.0.4 [runtime->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalactic#scalactic_2.12;3.0.4 [runtime->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [runtime->default][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [runtime->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [runtime->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [runtime->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [runtime->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [runtime->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [runtime->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [runtime->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [runtime->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [runtime->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [runtime->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->net.bytebuddy#byte-buddy-agent;1.6.11 [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: net.bytebuddy#byte-buddy-agent;1.6.11 {test=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]}[0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: module revision found in cache: net.bytebuddy#byte-buddy-agent;1.6.11[0m
+[0m[[0m[0mdebug[0m] [0m[0m	found net.bytebuddy#byte-buddy-agent;1.6.11 in sbt-chain[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->net.bytebuddy#byte-buddy-agent;1.6.11 [test->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->net.bytebuddy#byte-buddy-agent;1.6.11 [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->net.bytebuddy#byte-buddy-agent;1.6.11 [test->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->net.bytebuddy#byte-buddy-agent;1.6.11 [test->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->net.bytebuddy#byte-buddy-agent;1.6.11 [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->net.bytebuddy#byte-buddy-agent;1.6.11 [test->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->net.bytebuddy#byte-buddy-agent;1.6.11 [test->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.12.3 [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.12.3 [test->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.12.3 [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.12.3 [test->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.12.3 [test->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.12.3 [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.12.3 [test->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.12.3 [test->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.objenesis#objenesis;2.5 [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: org.objenesis#objenesis;2.5 {test=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]}[0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: module revision found in cache: org.objenesis#objenesis;2.5[0m
+[0m[[0m[0mdebug[0m] [0m[0m	found org.objenesis#objenesis;2.5 in sbt-chain[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.objenesis#objenesis;2.5 [test->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.objenesis#objenesis;2.5 [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.objenesis#objenesis;2.5 [test->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.objenesis#objenesis;2.5 [test->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.objenesis#objenesis;2.5 [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.objenesis#objenesis;2.5 [test->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.objenesis#objenesis;2.5 [test->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalatest#scalatest_2.12;3.0.4 [test->default][0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: org.scalatest#scalatest_2.12;3.0.4 {test=[default, compile, runtime, default(compile), master], test-internal=[default, compile, runtime, default(compile), master]}[0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: module revision found in cache: org.scalatest#scalatest_2.12;3.0.4[0m
+[0m[[0m[0mdebug[0m] [0m[0m	found org.scalatest#scalatest_2.12;3.0.4 in sbt-chain[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalatest#scalatest_2.12;3.0.4 [test->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalatest#scalatest_2.12;3.0.4 [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalatest#scalatest_2.12;3.0.4 [test->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalatest#scalatest_2.12;3.0.4 [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalatest#scalatest_2.12;3.0.4 [test->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalatest#scalatest_2.12;3.0.4 [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalatest#scalatest_2.12;3.0.4 [test->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalatest#scalatest_2.12;3.0.4 [test->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalatest#scalatest_2.12;3.0.4 [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalatest#scalatest_2.12;3.0.4 [test->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalatest#scalatest_2.12;3.0.4 [test->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalactic#scalactic_2.12;3.0.4 [test->default][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalactic#scalactic_2.12;3.0.4 [test->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalactic#scalactic_2.12;3.0.4 [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalactic#scalactic_2.12;3.0.4 [test->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalactic#scalactic_2.12;3.0.4 [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalactic#scalactic_2.12;3.0.4 [test->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalactic#scalactic_2.12;3.0.4 [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalactic#scalactic_2.12;3.0.4 [test->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalactic#scalactic_2.12;3.0.4 [test->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalactic#scalactic_2.12;3.0.4 [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalactic#scalactic_2.12;3.0.4 [test->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalactic#scalactic_2.12;3.0.4 [test->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalactic#scalactic_2.12;3.0.4 [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalactic#scalactic_2.12;3.0.4 [test->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalactic#scalactic_2.12;3.0.4 [test->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalactic#scalactic_2.12;3.0.4 [test->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [test->default][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [test->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [test->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [test->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [test->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [test->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [test->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [test->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [test->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [test->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [test->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.mockito#mockito-core;2.7.19 [test->default][0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: org.mockito#mockito-core;2.7.19 {test=[default, compile, runtime, default(compile), master], test-internal=[default, compile, runtime, default(compile), master]}[0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: module revision found in cache: org.mockito#mockito-core;2.7.19[0m
+[0m[[0m[0mdebug[0m] [0m[0m	found org.mockito#mockito-core;2.7.19 in sbt-chain[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.mockito#mockito-core;2.7.19 [test->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.mockito#mockito-core;2.7.19 [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.mockito#mockito-core;2.7.19 [test->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.mockito#mockito-core;2.7.19 [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.mockito#mockito-core;2.7.19 [test->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.mockito#mockito-core;2.7.19 [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.mockito#mockito-core;2.7.19 [test->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.mockito#mockito-core;2.7.19 [test->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.mockito#mockito-core;2.7.19 [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.mockito#mockito-core;2.7.19 [test->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.mockito#mockito-core;2.7.19 [test->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 {test=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]}[0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: module revision found in cache: org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4[0m
+[0m[[0m[0mdebug[0m] [0m[0m	found org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 in sbt-chain[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [test->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [test->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [test->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [test->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [test->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.5 [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: org.scala-lang.modules#scala-xml_2.12;1.0.5 {test=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]}[0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: module revision found in cache: org.scala-lang.modules#scala-xml_2.12;1.0.5[0m
+[0m[[0m[0mdebug[0m] [0m[0m	found org.scala-lang.modules#scala-xml_2.12;1.0.5 in sbt-chain[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.5 [test->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.5 [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.5 [test->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.5 [test->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.5 [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.5 [test->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.5 [test->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->net.bytebuddy#byte-buddy;1.6.11 [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: net.bytebuddy#byte-buddy;1.6.11 {test=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]}[0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: module revision found in cache: net.bytebuddy#byte-buddy;1.6.11[0m
+[0m[[0m[0mdebug[0m] [0m[0m	found net.bytebuddy#byte-buddy;1.6.11 in sbt-chain[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->net.bytebuddy#byte-buddy;1.6.11 [test->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->net.bytebuddy#byte-buddy;1.6.11 [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->net.bytebuddy#byte-buddy;1.6.11 [test->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->net.bytebuddy#byte-buddy;1.6.11 [test->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->net.bytebuddy#byte-buddy;1.6.11 [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->net.bytebuddy#byte-buddy;1.6.11 [test->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->net.bytebuddy#byte-buddy;1.6.11 [test->master][0m
+[0m[[0m[0mdebug[0m] [0m[0mresolving dependencies for configuration 'provided'[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for default#solid-scala$sources_javadoc;0.1-SNAPSHOT [provided][0m
+[0m[[0m[0mdebug[0m] [0m[0mresolving dependencies for configuration 'optional'[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for default#solid-scala$sources_javadoc;0.1-SNAPSHOT [optional][0m
+[0m[[0m[0mdebug[0m] [0m[0mresolving dependencies for configuration 'compile-internal'[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for default#solid-scala$sources_javadoc;0.1-SNAPSHOT [compile-internal][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for default#solid-scala$sources_javadoc;0.1-SNAPSHOT [compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.12.3 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.12.3 [compile->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.12.3 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.12.3 [compile->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.12.3 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.12.3 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.12.3 [compile->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.12.3 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalactic#scalactic_2.12;3.0.4 [compile->default][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalactic#scalactic_2.12;3.0.4 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalactic#scalactic_2.12;3.0.4 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalactic#scalactic_2.12;3.0.4 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalactic#scalactic_2.12;3.0.4 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalactic#scalactic_2.12;3.0.4 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalactic#scalactic_2.12;3.0.4 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalactic#scalactic_2.12;3.0.4 [compile->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalactic#scalactic_2.12;3.0.4 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalactic#scalactic_2.12;3.0.4 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalactic#scalactic_2.12;3.0.4 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalactic#scalactic_2.12;3.0.4 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [compile->default][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [compile->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [compile->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [compile->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [compile->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for default#solid-scala$sources_javadoc;0.1-SNAPSHOT [optional][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for default#solid-scala$sources_javadoc;0.1-SNAPSHOT [provided][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.12.3 [compile-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.12.3 [compile-internal->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.12.3 [compile-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.12.3 [compile-internal->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.12.3 [compile-internal->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.12.3 [compile-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.12.3 [compile-internal->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.12.3 [compile-internal->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalactic#scalactic_2.12;3.0.4 [compile-internal->default][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalactic#scalactic_2.12;3.0.4 [compile-internal->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalactic#scalactic_2.12;3.0.4 [compile-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalactic#scalactic_2.12;3.0.4 [compile-internal->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalactic#scalactic_2.12;3.0.4 [compile-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalactic#scalactic_2.12;3.0.4 [compile-internal->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalactic#scalactic_2.12;3.0.4 [compile-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalactic#scalactic_2.12;3.0.4 [compile-internal->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalactic#scalactic_2.12;3.0.4 [compile-internal->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalactic#scalactic_2.12;3.0.4 [compile-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalactic#scalactic_2.12;3.0.4 [compile-internal->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalactic#scalactic_2.12;3.0.4 [compile-internal->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [compile-internal->default][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [compile-internal->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [compile-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [compile-internal->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [compile-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [compile-internal->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [compile-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [compile-internal->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [compile-internal->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [compile-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [compile-internal->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [compile-internal->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [compile-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [compile-internal->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [compile-internal->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [compile-internal->master][0m
+[0m[[0m[0mdebug[0m] [0m[0mresolving dependencies for configuration 'runtime-internal'[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for default#solid-scala$sources_javadoc;0.1-SNAPSHOT [runtime-internal][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for default#solid-scala$sources_javadoc;0.1-SNAPSHOT [runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for default#solid-scala$sources_javadoc;0.1-SNAPSHOT [compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.12.3 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.12.3 [compile->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.12.3 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.12.3 [compile->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.12.3 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.12.3 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.12.3 [compile->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.12.3 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalactic#scalactic_2.12;3.0.4 [compile->default][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalactic#scalactic_2.12;3.0.4 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalactic#scalactic_2.12;3.0.4 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalactic#scalactic_2.12;3.0.4 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalactic#scalactic_2.12;3.0.4 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalactic#scalactic_2.12;3.0.4 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalactic#scalactic_2.12;3.0.4 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalactic#scalactic_2.12;3.0.4 [compile->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalactic#scalactic_2.12;3.0.4 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalactic#scalactic_2.12;3.0.4 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalactic#scalactic_2.12;3.0.4 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalactic#scalactic_2.12;3.0.4 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [compile->default][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [compile->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [compile->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [compile->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [compile->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.12.3 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.12.3 [runtime->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.12.3 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.12.3 [runtime->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.12.3 [runtime->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.12.3 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.12.3 [runtime->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.12.3 [runtime->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalactic#scalactic_2.12;3.0.4 [runtime->default][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalactic#scalactic_2.12;3.0.4 [runtime->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalactic#scalactic_2.12;3.0.4 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalactic#scalactic_2.12;3.0.4 [runtime->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalactic#scalactic_2.12;3.0.4 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalactic#scalactic_2.12;3.0.4 [runtime->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalactic#scalactic_2.12;3.0.4 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalactic#scalactic_2.12;3.0.4 [runtime->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalactic#scalactic_2.12;3.0.4 [runtime->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalactic#scalactic_2.12;3.0.4 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalactic#scalactic_2.12;3.0.4 [runtime->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalactic#scalactic_2.12;3.0.4 [runtime->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [runtime->default][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [runtime->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [runtime->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [runtime->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [runtime->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [runtime->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [runtime->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [runtime->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [runtime->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [runtime->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [runtime->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for default#solid-scala$sources_javadoc;0.1-SNAPSHOT [optional][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.12.3 [runtime-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.12.3 [runtime-internal->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.12.3 [runtime-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.12.3 [runtime-internal->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.12.3 [runtime-internal->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.12.3 [runtime-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.12.3 [runtime-internal->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.12.3 [runtime-internal->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalactic#scalactic_2.12;3.0.4 [runtime-internal->default][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalactic#scalactic_2.12;3.0.4 [runtime-internal->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalactic#scalactic_2.12;3.0.4 [runtime-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalactic#scalactic_2.12;3.0.4 [runtime-internal->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalactic#scalactic_2.12;3.0.4 [runtime-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalactic#scalactic_2.12;3.0.4 [runtime-internal->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalactic#scalactic_2.12;3.0.4 [runtime-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalactic#scalactic_2.12;3.0.4 [runtime-internal->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalactic#scalactic_2.12;3.0.4 [runtime-internal->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalactic#scalactic_2.12;3.0.4 [runtime-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalactic#scalactic_2.12;3.0.4 [runtime-internal->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalactic#scalactic_2.12;3.0.4 [runtime-internal->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [runtime-internal->default][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [runtime-internal->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [runtime-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [runtime-internal->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [runtime-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [runtime-internal->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [runtime-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [runtime-internal->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [runtime-internal->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [runtime-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [runtime-internal->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [runtime-internal->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [runtime-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [runtime-internal->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [runtime-internal->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [runtime-internal->master][0m
+[0m[[0m[0mdebug[0m] [0m[0mresolving dependencies for configuration 'test-internal'[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for default#solid-scala$sources_javadoc;0.1-SNAPSHOT [test-internal][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for default#solid-scala$sources_javadoc;0.1-SNAPSHOT [test][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for default#solid-scala$sources_javadoc;0.1-SNAPSHOT [runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for default#solid-scala$sources_javadoc;0.1-SNAPSHOT [compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.12.3 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.12.3 [compile->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.12.3 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.12.3 [compile->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.12.3 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.12.3 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.12.3 [compile->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.12.3 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalactic#scalactic_2.12;3.0.4 [compile->default][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalactic#scalactic_2.12;3.0.4 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalactic#scalactic_2.12;3.0.4 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalactic#scalactic_2.12;3.0.4 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalactic#scalactic_2.12;3.0.4 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalactic#scalactic_2.12;3.0.4 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalactic#scalactic_2.12;3.0.4 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalactic#scalactic_2.12;3.0.4 [compile->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalactic#scalactic_2.12;3.0.4 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalactic#scalactic_2.12;3.0.4 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalactic#scalactic_2.12;3.0.4 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalactic#scalactic_2.12;3.0.4 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [compile->default][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [compile->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [compile->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [compile->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [compile->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.12.3 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.12.3 [runtime->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.12.3 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.12.3 [runtime->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.12.3 [runtime->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.12.3 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.12.3 [runtime->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.12.3 [runtime->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalactic#scalactic_2.12;3.0.4 [runtime->default][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalactic#scalactic_2.12;3.0.4 [runtime->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalactic#scalactic_2.12;3.0.4 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalactic#scalactic_2.12;3.0.4 [runtime->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalactic#scalactic_2.12;3.0.4 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalactic#scalactic_2.12;3.0.4 [runtime->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalactic#scalactic_2.12;3.0.4 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalactic#scalactic_2.12;3.0.4 [runtime->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalactic#scalactic_2.12;3.0.4 [runtime->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalactic#scalactic_2.12;3.0.4 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalactic#scalactic_2.12;3.0.4 [runtime->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalactic#scalactic_2.12;3.0.4 [runtime->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [runtime->default][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [runtime->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [runtime->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [runtime->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [runtime->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [runtime->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [runtime->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [runtime->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [runtime->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [runtime->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [runtime->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->net.bytebuddy#byte-buddy-agent;1.6.11 [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->net.bytebuddy#byte-buddy-agent;1.6.11 [test->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->net.bytebuddy#byte-buddy-agent;1.6.11 [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->net.bytebuddy#byte-buddy-agent;1.6.11 [test->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->net.bytebuddy#byte-buddy-agent;1.6.11 [test->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->net.bytebuddy#byte-buddy-agent;1.6.11 [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->net.bytebuddy#byte-buddy-agent;1.6.11 [test->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->net.bytebuddy#byte-buddy-agent;1.6.11 [test->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.12.3 [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.12.3 [test->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.12.3 [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.12.3 [test->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.12.3 [test->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.12.3 [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.12.3 [test->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.12.3 [test->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.objenesis#objenesis;2.5 [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.objenesis#objenesis;2.5 [test->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.objenesis#objenesis;2.5 [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.objenesis#objenesis;2.5 [test->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.objenesis#objenesis;2.5 [test->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.objenesis#objenesis;2.5 [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.objenesis#objenesis;2.5 [test->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.objenesis#objenesis;2.5 [test->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalatest#scalatest_2.12;3.0.4 [test->default][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalatest#scalatest_2.12;3.0.4 [test->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalatest#scalatest_2.12;3.0.4 [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalatest#scalatest_2.12;3.0.4 [test->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalatest#scalatest_2.12;3.0.4 [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalatest#scalatest_2.12;3.0.4 [test->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalatest#scalatest_2.12;3.0.4 [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalatest#scalatest_2.12;3.0.4 [test->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalatest#scalatest_2.12;3.0.4 [test->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalatest#scalatest_2.12;3.0.4 [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalatest#scalatest_2.12;3.0.4 [test->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalatest#scalatest_2.12;3.0.4 [test->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalactic#scalactic_2.12;3.0.4 [test->default][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalactic#scalactic_2.12;3.0.4 [test->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalactic#scalactic_2.12;3.0.4 [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalactic#scalactic_2.12;3.0.4 [test->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalactic#scalactic_2.12;3.0.4 [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalactic#scalactic_2.12;3.0.4 [test->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalactic#scalactic_2.12;3.0.4 [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalactic#scalactic_2.12;3.0.4 [test->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalactic#scalactic_2.12;3.0.4 [test->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalactic#scalactic_2.12;3.0.4 [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalactic#scalactic_2.12;3.0.4 [test->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalactic#scalactic_2.12;3.0.4 [test->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalactic#scalactic_2.12;3.0.4 [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalactic#scalactic_2.12;3.0.4 [test->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalactic#scalactic_2.12;3.0.4 [test->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalactic#scalactic_2.12;3.0.4 [test->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [test->default][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [test->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [test->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [test->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [test->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [test->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [test->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [test->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [test->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [test->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [test->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.mockito#mockito-core;2.7.19 [test->default][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.mockito#mockito-core;2.7.19 [test->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.mockito#mockito-core;2.7.19 [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.mockito#mockito-core;2.7.19 [test->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.mockito#mockito-core;2.7.19 [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.mockito#mockito-core;2.7.19 [test->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.mockito#mockito-core;2.7.19 [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.mockito#mockito-core;2.7.19 [test->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.mockito#mockito-core;2.7.19 [test->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.mockito#mockito-core;2.7.19 [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.mockito#mockito-core;2.7.19 [test->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.mockito#mockito-core;2.7.19 [test->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [test->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [test->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [test->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [test->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [test->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.5 [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.5 [test->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.5 [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.5 [test->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.5 [test->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.5 [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.5 [test->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.5 [test->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->net.bytebuddy#byte-buddy;1.6.11 [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->net.bytebuddy#byte-buddy;1.6.11 [test->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->net.bytebuddy#byte-buddy;1.6.11 [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->net.bytebuddy#byte-buddy;1.6.11 [test->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->net.bytebuddy#byte-buddy;1.6.11 [test->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->net.bytebuddy#byte-buddy;1.6.11 [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->net.bytebuddy#byte-buddy;1.6.11 [test->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->net.bytebuddy#byte-buddy;1.6.11 [test->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for default#solid-scala$sources_javadoc;0.1-SNAPSHOT [optional][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for default#solid-scala$sources_javadoc;0.1-SNAPSHOT [provided][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->net.bytebuddy#byte-buddy-agent;1.6.11 [test-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->net.bytebuddy#byte-buddy-agent;1.6.11 [test-internal->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->net.bytebuddy#byte-buddy-agent;1.6.11 [test-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->net.bytebuddy#byte-buddy-agent;1.6.11 [test-internal->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->net.bytebuddy#byte-buddy-agent;1.6.11 [test-internal->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->net.bytebuddy#byte-buddy-agent;1.6.11 [test-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->net.bytebuddy#byte-buddy-agent;1.6.11 [test-internal->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->net.bytebuddy#byte-buddy-agent;1.6.11 [test-internal->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.12.3 [test-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.12.3 [test-internal->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.12.3 [test-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.12.3 [test-internal->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.12.3 [test-internal->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.12.3 [test-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.12.3 [test-internal->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.12.3 [test-internal->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.objenesis#objenesis;2.5 [test-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.objenesis#objenesis;2.5 [test-internal->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.objenesis#objenesis;2.5 [test-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.objenesis#objenesis;2.5 [test-internal->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.objenesis#objenesis;2.5 [test-internal->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.objenesis#objenesis;2.5 [test-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.objenesis#objenesis;2.5 [test-internal->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.objenesis#objenesis;2.5 [test-internal->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalatest#scalatest_2.12;3.0.4 [test-internal->default][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalatest#scalatest_2.12;3.0.4 [test-internal->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalatest#scalatest_2.12;3.0.4 [test-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalatest#scalatest_2.12;3.0.4 [test-internal->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalatest#scalatest_2.12;3.0.4 [test-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalatest#scalatest_2.12;3.0.4 [test-internal->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalatest#scalatest_2.12;3.0.4 [test-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalatest#scalatest_2.12;3.0.4 [test-internal->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalatest#scalatest_2.12;3.0.4 [test-internal->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalatest#scalatest_2.12;3.0.4 [test-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalatest#scalatest_2.12;3.0.4 [test-internal->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalatest#scalatest_2.12;3.0.4 [test-internal->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalactic#scalactic_2.12;3.0.4 [test-internal->default][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalactic#scalactic_2.12;3.0.4 [test-internal->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalactic#scalactic_2.12;3.0.4 [test-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalactic#scalactic_2.12;3.0.4 [test-internal->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalactic#scalactic_2.12;3.0.4 [test-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalactic#scalactic_2.12;3.0.4 [test-internal->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalactic#scalactic_2.12;3.0.4 [test-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalactic#scalactic_2.12;3.0.4 [test-internal->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalactic#scalactic_2.12;3.0.4 [test-internal->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalactic#scalactic_2.12;3.0.4 [test-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalactic#scalactic_2.12;3.0.4 [test-internal->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalactic#scalactic_2.12;3.0.4 [test-internal->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalactic#scalactic_2.12;3.0.4 [test-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalactic#scalactic_2.12;3.0.4 [test-internal->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalactic#scalactic_2.12;3.0.4 [test-internal->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scalactic#scalactic_2.12;3.0.4 [test-internal->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [test-internal->default][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [test-internal->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [test-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [test-internal->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [test-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [test-internal->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [test-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [test-internal->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [test-internal->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [test-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [test-internal->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [test-internal->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [test-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [test-internal->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [test-internal->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [test-internal->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.mockito#mockito-core;2.7.19 [test-internal->default][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.mockito#mockito-core;2.7.19 [test-internal->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.mockito#mockito-core;2.7.19 [test-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.mockito#mockito-core;2.7.19 [test-internal->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.mockito#mockito-core;2.7.19 [test-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.mockito#mockito-core;2.7.19 [test-internal->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.mockito#mockito-core;2.7.19 [test-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.mockito#mockito-core;2.7.19 [test-internal->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.mockito#mockito-core;2.7.19 [test-internal->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.mockito#mockito-core;2.7.19 [test-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.mockito#mockito-core;2.7.19 [test-internal->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.mockito#mockito-core;2.7.19 [test-internal->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [test-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [test-internal->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [test-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [test-internal->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [test-internal->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [test-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [test-internal->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [test-internal->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.5 [test-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.5 [test-internal->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.5 [test-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.5 [test-internal->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.5 [test-internal->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.5 [test-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.5 [test-internal->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.5 [test-internal->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->net.bytebuddy#byte-buddy;1.6.11 [test-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->net.bytebuddy#byte-buddy;1.6.11 [test-internal->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->net.bytebuddy#byte-buddy;1.6.11 [test-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->net.bytebuddy#byte-buddy;1.6.11 [test-internal->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->net.bytebuddy#byte-buddy;1.6.11 [test-internal->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->net.bytebuddy#byte-buddy;1.6.11 [test-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->net.bytebuddy#byte-buddy;1.6.11 [test-internal->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->net.bytebuddy#byte-buddy;1.6.11 [test-internal->master][0m
+[0m[[0m[0mdebug[0m] [0m[0mresolving dependencies for configuration 'plugin'[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for default#solid-scala$sources_javadoc;0.1-SNAPSHOT [plugin][0m
+[0m[[0m[0mdebug[0m] [0m[0mresolving dependencies for configuration 'pom'[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for default#solid-scala$sources_javadoc;0.1-SNAPSHOT [pom][0m
+[0m[[0m[0mdebug[0m] [0m[0mresolving dependencies for configuration 'scala-tool'[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for default#solid-scala$sources_javadoc;0.1-SNAPSHOT [scala-tool][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.12.3 [scala-tool->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.12.3 [scala-tool->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.12.3 [scala-tool->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.12.3 [scala-tool->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.12.3 [scala-tool->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.12.3 [scala-tool->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.12.3 [scala-tool->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.12.3 [scala-tool->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.6 [scala-tool->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: org.scala-lang.modules#scala-xml_2.12;1.0.6 {scala-tool=[compile, runtime(*), master(compile), runtime, compile(*), master]}[0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: module revision found in cache: org.scala-lang.modules#scala-xml_2.12;1.0.6[0m
+[0m[[0m[0mdebug[0m] [0m[0m	found org.scala-lang.modules#scala-xml_2.12;1.0.6 in sbt-chain[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.6 [scala-tool->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.6 [scala-tool->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.6 [scala-tool->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.6 [scala-tool->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.6 [scala-tool->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.6 [scala-tool->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.6 [scala-tool->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [scala-tool->default][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [scala-tool->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [scala-tool->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [scala-tool->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [scala-tool->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [scala-tool->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [scala-tool->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [scala-tool->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [scala-tool->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [scala-tool->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [scala-tool->optional][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [scala-tool->optional(default)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [scala-tool->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.3 [scala-tool->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.12.3 [scala-tool->default][0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: org.scala-lang#scala-compiler;2.12.3 {scala-tool=[default, compile, runtime, optional, optional(default), master]}[0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: module revision found in cache: org.scala-lang#scala-compiler;2.12.3[0m
+[0m[[0m[0mdebug[0m] [0m[0m	found org.scala-lang#scala-compiler;2.12.3 in sbt-chain[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.12.3 [scala-tool->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.12.3 [scala-tool->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.12.3 [scala-tool->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.12.3 [scala-tool->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.12.3 [scala-tool->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.12.3 [scala-tool->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.12.3 [scala-tool->optional][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.12.3 [scala-tool->optional(default)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.12.3 [scala-tool->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->jline#jline;2.14.4 [scala-tool->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: jline#jline;2.14.4 {scala-tool=[compile, master(compile), compile(*), master]}[0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: module revision found in cache: jline#jline;2.14.4[0m
+[0m[[0m[0mdebug[0m] [0m[0m	found jline#jline;2.14.4 in sbt-chain[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->jline#jline;2.14.4 [scala-tool->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->jline#jline;2.14.4 [scala-tool->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#solid-scala$sources_javadoc;0.1-SNAPSHOT->jline#jline;2.14.4 [scala-tool->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m	resolved ivy file produced in cache[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: downloading artifacts ::[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4!scala-parser-combinators_2.12.jar(doc)[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried /Users/johnmartingalicia/.ivy2/local/net.bytebuddy/byte-buddy-agent/1.6.11/srcs/byte-buddy-agent-sources.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.12;1.0.5!scala-xml_2.12.jar(doc)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4!scala-parser-combinators_2.12.jar(src)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.12;1.0.5!scala-xml_2.12.jar(src)[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried /Users/johnmartingalicia/.ivy2/local/net.bytebuddy/byte-buddy-agent/1.6.11/docs/byte-buddy-agent-javadoc.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy-agent/1.6.11/byte-buddy-agent-1.6.11-sources.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-lang#scala-reflect;2.12.3!scala-reflect.jar(doc)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-lang#scala-compiler;2.12.3!scala-compiler.jar(doc)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-lang#scala-reflect;2.12.3!scala-reflect.jar(src)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-lang#scala-compiler;2.12.3!scala-compiler.jar(src)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scalactic#scalactic_2.12;3.0.4!scalactic_2.12.jar(doc)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scalactic#scalactic_2.12;3.0.4!scalactic_2.12.jar(src)[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried /Users/johnmartingalicia/.ivy2/local/org.mockito/mockito-core/2.7.19/srcs/mockito-core-sources.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] jline#jline;2.14.4!jline.jar(src)[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried /Users/johnmartingalicia/.ivy2/local/org.mockito/mockito-core/2.7.19/docs/mockito-core-javadoc.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] jline#jline;2.14.4!jline.jar(doc)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-lang#scala-library;2.12.3!scala-library.jar(doc)[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/org/mockito/mockito-core/2.7.19/mockito-core-2.7.19-sources.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-lang#scala-library;2.12.3!scala-library.jar(src)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.12;1.0.6!scala-xml_2.12.jar(src)[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried /Users/johnmartingalicia/.ivy2/local/net.bytebuddy/byte-buddy/1.6.11/srcs/byte-buddy-sources.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.12;1.0.6!scala-xml_2.12.jar(doc)[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried /Users/johnmartingalicia/.ivy2/local/net.bytebuddy/byte-buddy/1.6.11/docs/byte-buddy-javadoc.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scalatest#scalatest_2.12;3.0.4!scalatest_2.12.jar(src)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scalatest#scalatest_2.12;3.0.4!scalatest_2.12.jar(doc)[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried /Users/johnmartingalicia/.ivy2/local/org.objenesis/objenesis/2.5/srcs/objenesis-sources.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy/1.6.11/byte-buddy-1.6.11-sources.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried /Users/johnmartingalicia/.ivy2/local/org.objenesis/objenesis/2.5/docs/objenesis-javadoc.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/org/objenesis/objenesis/2.5/objenesis-2.5-sources.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mdownloading https://repo1.maven.org/maven2/org/objenesis/objenesis/2.5/objenesis-2.5-sources.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/objenesis/objenesis/2.5/objenesis-2.5-sources.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mdownloading https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy-agent/1.6.11/byte-buddy-agent-1.6.11-sources.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy-agent/1.6.11/byte-buddy-agent-1.6.11-sources.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mdownloading https://repo1.maven.org/maven2/org/mockito/mockito-core/2.7.19/mockito-core-2.7.19-sources.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/mockito/mockito-core/2.7.19/mockito-core-2.7.19-sources.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mdownloading https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy/1.6.11/byte-buddy-1.6.11-sources.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy/1.6.11/byte-buddy-1.6.11-sources.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/objenesis/objenesis/2.5/objenesis-2.5-sources.jar.sha1[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy-agent/1.6.11/byte-buddy-agent-1.6.11-sources.jar.sha1[0m
+[0m[[0m[0mdebug[0m] [0m[0msha1 OK for https://repo1.maven.org/maven2/org/objenesis/objenesis/2.5/objenesis-2.5-sources.jar[0m
+[0m[[0m[0minfo[0m] [0m[0m	[SUCCESSFUL ] org.objenesis#objenesis;2.5!objenesis.jar(src) (118ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/org/objenesis/objenesis/2.5/objenesis-2.5-javadoc.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0msha1 OK for https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy-agent/1.6.11/byte-buddy-agent-1.6.11-sources.jar[0m
+[0m[[0m[0minfo[0m] [0m[0m	[SUCCESSFUL ] net.bytebuddy#byte-buddy-agent;1.6.11!byte-buddy-agent.jar(src) (135ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy-agent/1.6.11/byte-buddy-agent-1.6.11-javadoc.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mdownloading https://repo1.maven.org/maven2/org/objenesis/objenesis/2.5/objenesis-2.5-javadoc.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/objenesis/objenesis/2.5/objenesis-2.5-javadoc.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mdownloading https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy-agent/1.6.11/byte-buddy-agent-1.6.11-javadoc.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy-agent/1.6.11/byte-buddy-agent-1.6.11-javadoc.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/mockito/mockito-core/2.7.19/mockito-core-2.7.19-sources.jar.sha1[0m
+[0m[[0m[0mdebug[0m] [0m[0msha1 OK for https://repo1.maven.org/maven2/org/mockito/mockito-core/2.7.19/mockito-core-2.7.19-sources.jar[0m
+[0m[[0m[0minfo[0m] [0m[0m	[SUCCESSFUL ] org.mockito#mockito-core;2.7.19!mockito-core.jar(src) (236ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/org/mockito/mockito-core/2.7.19/mockito-core-2.7.19-javadoc.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/objenesis/objenesis/2.5/objenesis-2.5-javadoc.jar.sha1[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy-agent/1.6.11/byte-buddy-agent-1.6.11-javadoc.jar.sha1[0m
+[0m[[0m[0mdebug[0m] [0m[0msha1 OK for https://repo1.maven.org/maven2/org/objenesis/objenesis/2.5/objenesis-2.5-javadoc.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0msha1 OK for https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy-agent/1.6.11/byte-buddy-agent-1.6.11-javadoc.jar[0m
+[0m[[0m[0minfo[0m] [0m[0m	[SUCCESSFUL ] org.objenesis#objenesis;2.5!objenesis.jar(doc) (173ms)[0m
+[0m[[0m[0minfo[0m] [0m[0m	[SUCCESSFUL ] net.bytebuddy#byte-buddy-agent;1.6.11!byte-buddy-agent.jar(doc) (159ms)[0m
+[0m[[0m[0minfo[0m] [0m[0mdownloading https://repo1.maven.org/maven2/org/mockito/mockito-core/2.7.19/mockito-core-2.7.19-javadoc.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/mockito/mockito-core/2.7.19/mockito-core-2.7.19-javadoc.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy/1.6.11/byte-buddy-1.6.11-sources.jar.sha1[0m
+[0m[[0m[0mdebug[0m] [0m[0msha1 OK for https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy/1.6.11/byte-buddy-1.6.11-sources.jar[0m
+[0m[[0m[0minfo[0m] [0m[0m	[SUCCESSFUL ] net.bytebuddy#byte-buddy;1.6.11!byte-buddy.jar(src) (477ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy/1.6.11/byte-buddy-1.6.11-javadoc.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mdownloading https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy/1.6.11/byte-buddy-1.6.11-javadoc.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy/1.6.11/byte-buddy-1.6.11-javadoc.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/mockito/mockito-core/2.7.19/mockito-core-2.7.19-javadoc.jar.sha1[0m
+[0m[[0m[0mdebug[0m] [0m[0msha1 OK for https://repo1.maven.org/maven2/org/mockito/mockito-core/2.7.19/mockito-core-2.7.19-javadoc.jar[0m
+[0m[[0m[0minfo[0m] [0m[0m	[SUCCESSFUL ] org.mockito#mockito-core;2.7.19!mockito-core.jar(doc) (355ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy/1.6.11/byte-buddy-1.6.11-javadoc.jar.sha1[0m
+[0m[[0m[0mdebug[0m] [0m[0msha1 OK for https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy/1.6.11/byte-buddy-1.6.11-javadoc.jar[0m
+[0m[[0m[0minfo[0m] [0m[0m	[SUCCESSFUL ] net.bytebuddy#byte-buddy;1.6.11!byte-buddy.jar(doc) (2070ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: resolution report :: resolve 86ms :: artifacts dl 2553ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for default#solid-scala$sources_javadoc;0.1-SNAPSHOT compile produced in /Users/johnmartingalicia/git/SOLID/SOLID-Scala/target/scala-2.12/resolution-cache/reports/default-solid-scala$sources_javadoc-compile.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for default#solid-scala$sources_javadoc;0.1-SNAPSHOT runtime produced in /Users/johnmartingalicia/git/SOLID/SOLID-Scala/target/scala-2.12/resolution-cache/reports/default-solid-scala$sources_javadoc-runtime.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for default#solid-scala$sources_javadoc;0.1-SNAPSHOT test produced in /Users/johnmartingalicia/git/SOLID/SOLID-Scala/target/scala-2.12/resolution-cache/reports/default-solid-scala$sources_javadoc-test.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for default#solid-scala$sources_javadoc;0.1-SNAPSHOT provided produced in /Users/johnmartingalicia/git/SOLID/SOLID-Scala/target/scala-2.12/resolution-cache/reports/default-solid-scala$sources_javadoc-provided.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for default#solid-scala$sources_javadoc;0.1-SNAPSHOT optional produced in /Users/johnmartingalicia/git/SOLID/SOLID-Scala/target/scala-2.12/resolution-cache/reports/default-solid-scala$sources_javadoc-optional.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for default#solid-scala$sources_javadoc;0.1-SNAPSHOT compile-internal produced in /Users/johnmartingalicia/git/SOLID/SOLID-Scala/target/scala-2.12/resolution-cache/reports/default-solid-scala$sources_javadoc-compile-internal.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for default#solid-scala$sources_javadoc;0.1-SNAPSHOT runtime-internal produced in /Users/johnmartingalicia/git/SOLID/SOLID-Scala/target/scala-2.12/resolution-cache/reports/default-solid-scala$sources_javadoc-runtime-internal.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for default#solid-scala$sources_javadoc;0.1-SNAPSHOT test-internal produced in /Users/johnmartingalicia/git/SOLID/SOLID-Scala/target/scala-2.12/resolution-cache/reports/default-solid-scala$sources_javadoc-test-internal.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for default#solid-scala$sources_javadoc;0.1-SNAPSHOT plugin produced in /Users/johnmartingalicia/git/SOLID/SOLID-Scala/target/scala-2.12/resolution-cache/reports/default-solid-scala$sources_javadoc-plugin.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for default#solid-scala$sources_javadoc;0.1-SNAPSHOT pom produced in /Users/johnmartingalicia/git/SOLID/SOLID-Scala/target/scala-2.12/resolution-cache/reports/default-solid-scala$sources_javadoc-pom.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for default#solid-scala$sources_javadoc;0.1-SNAPSHOT scala-tool produced in /Users/johnmartingalicia/git/SOLID/SOLID-Scala/target/scala-2.12/resolution-cache/reports/default-solid-scala$sources_javadoc-scala-tool.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	resolve done (86ms resolve - 2553ms download)[0m

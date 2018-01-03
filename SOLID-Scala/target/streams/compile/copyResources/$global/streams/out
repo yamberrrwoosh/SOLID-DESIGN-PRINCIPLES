@@ -1,0 +1,15 @@
+[0m[[0m[0mdebug[0m] [0m[0mCopy resource mappings: [0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/Users/johnmartingalicia/git/SOLID/SOLID-Scala/src/main/resources/others,/Users/johnmartingalicia/git/SOLID/SOLID-Scala/target/scala-2.12/classes/others)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/Users/johnmartingalicia/git/SOLID/SOLID-Scala/src/main/resources/xmls,/Users/johnmartingalicia/git/SOLID/SOLID-Scala/target/scala-2.12/classes/xmls)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/Users/johnmartingalicia/git/SOLID/SOLID-Scala/src/main/resources/docs,/Users/johnmartingalicia/git/SOLID/SOLID-Scala/target/scala-2.12/classes/docs)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/Users/johnmartingalicia/git/SOLID/SOLID-Scala/src/main/resources/pdfs,/Users/johnmartingalicia/git/SOLID/SOLID-Scala/target/scala-2.12/classes/pdfs)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/Users/johnmartingalicia/git/SOLID/SOLID-Scala/src/main/resources/others/z.txt,/Users/johnmartingalicia/git/SOLID/SOLID-Scala/target/scala-2.12/classes/others/z.txt)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/Users/johnmartingalicia/git/SOLID/SOLID-Scala/src/main/resources/others/a.txt,/Users/johnmartingalicia/git/SOLID/SOLID-Scala/target/scala-2.12/classes/others/a.txt)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/Users/johnmartingalicia/git/SOLID/SOLID-Scala/src/main/resources/xmls/z.xml,/Users/johnmartingalicia/git/SOLID/SOLID-Scala/target/scala-2.12/classes/xmls/z.xml)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/Users/johnmartingalicia/git/SOLID/SOLID-Scala/src/main/resources/xmls/a.xml,/Users/johnmartingalicia/git/SOLID/SOLID-Scala/target/scala-2.12/classes/xmls/a.xml)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/Users/johnmartingalicia/git/SOLID/SOLID-Scala/src/main/resources/docs/a.doc,/Users/johnmartingalicia/git/SOLID/SOLID-Scala/target/scala-2.12/classes/docs/a.doc)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/Users/johnmartingalicia/git/SOLID/SOLID-Scala/src/main/resources/docs/sample.doc,/Users/johnmartingalicia/git/SOLID/SOLID-Scala/target/scala-2.12/classes/docs/sample.doc)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/Users/johnmartingalicia/git/SOLID/SOLID-Scala/src/main/resources/docs/z.doc,/Users/johnmartingalicia/git/SOLID/SOLID-Scala/target/scala-2.12/classes/docs/z.doc)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/Users/johnmartingalicia/git/SOLID/SOLID-Scala/src/main/resources/pdfs/z.pdf,/Users/johnmartingalicia/git/SOLID/SOLID-Scala/target/scala-2.12/classes/pdfs/z.pdf)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/Users/johnmartingalicia/git/SOLID/SOLID-Scala/src/main/resources/pdfs/sample.pdf,/Users/johnmartingalicia/git/SOLID/SOLID-Scala/target/scala-2.12/classes/pdfs/sample.pdf)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/Users/johnmartingalicia/git/SOLID/SOLID-Scala/src/main/resources/pdfs/a.pdf,/Users/johnmartingalicia/git/SOLID/SOLID-Scala/target/scala-2.12/classes/pdfs/a.pdf)[0m
