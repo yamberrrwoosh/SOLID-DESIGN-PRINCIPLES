@@ -1,9 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry kind="con" path="org.scala-ide.sdt.launching.SCALA_CONTAINER"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
 	<classpathentry kind="src" path="src/main/scala"/>
 	<classpathentry kind="src" path="src/main/resources"/>
 	<classpathentry kind="src" path="src/main/test"/>
+	<classpathentry kind="con" path="org.scala-ide.sdt.launching.SCALA_CONTAINER"/>
+	<classpathentry kind="lib" path="/Users/johnmartingalicia/.ivy2/cache/org.scalactic/scalactic_2.12/bundles/scalactic_2.12-3.0.4.jar" sourcepath="/Users/johnmartingalicia/.ivy2/cache/org.scalactic/scalactic_2.12/srcs/scalactic_2.12-3.0.4-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/Users/johnmartingalicia/.ivy2/cache/org.scalactic/scalactic_2.12/docs/scalactic_2.12-3.0.4-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Users/johnmartingalicia/.ivy2/cache/org.scalatest/scalatest_2.12/bundles/scalatest_2.12-3.0.4.jar" sourcepath="/Users/johnmartingalicia/.ivy2/cache/org.scalatest/scalatest_2.12/srcs/scalatest_2.12-3.0.4-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/Users/johnmartingalicia/.ivy2/cache/org.scalatest/scalatest_2.12/docs/scalatest_2.12-3.0.4-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Users/johnmartingalicia/.ivy2/cache/org.scala-lang.modules/scala-xml_2.12/bundles/scala-xml_2.12-1.0.5.jar" sourcepath="/Users/johnmartingalicia/.ivy2/cache/org.scala-lang.modules/scala-xml_2.12/srcs/scala-xml_2.12-1.0.5-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/Users/johnmartingalicia/.ivy2/cache/org.scala-lang.modules/scala-xml_2.12/docs/scala-xml_2.12-1.0.5-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Users/johnmartingalicia/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.12/bundles/scala-parser-combinators_2.12-1.0.4.jar" sourcepath="/Users/johnmartingalicia/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.12/srcs/scala-parser-combinators_2.12-1.0.4-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/Users/johnmartingalicia/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.12/docs/scala-parser-combinators_2.12-1.0.4-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Users/johnmartingalicia/.ivy2/cache/org.mockito/mockito-core/jars/mockito-core-2.7.19.jar" sourcepath="/Users/johnmartingalicia/.ivy2/cache/org.mockito/mockito-core/srcs/mockito-core-2.7.19-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/Users/johnmartingalicia/.ivy2/cache/org.mockito/mockito-core/docs/mockito-core-2.7.19-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Users/johnmartingalicia/.ivy2/cache/net.bytebuddy/byte-buddy/jars/byte-buddy-1.6.11.jar" sourcepath="/Users/johnmartingalicia/.ivy2/cache/net.bytebuddy/byte-buddy/srcs/byte-buddy-1.6.11-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/Users/johnmartingalicia/.ivy2/cache/net.bytebuddy/byte-buddy/docs/byte-buddy-1.6.11-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Users/johnmartingalicia/.ivy2/cache/net.bytebuddy/byte-buddy-agent/jars/byte-buddy-agent-1.6.11.jar" sourcepath="/Users/johnmartingalicia/.ivy2/cache/net.bytebuddy/byte-buddy-agent/srcs/byte-buddy-agent-1.6.11-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/Users/johnmartingalicia/.ivy2/cache/net.bytebuddy/byte-buddy-agent/docs/byte-buddy-agent-1.6.11-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Users/johnmartingalicia/.ivy2/cache/org.objenesis/objenesis/jars/objenesis-2.5.jar" sourcepath="/Users/johnmartingalicia/.ivy2/cache/org.objenesis/objenesis/srcs/objenesis-2.5-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/Users/johnmartingalicia/.ivy2/cache/org.objenesis/objenesis/docs/objenesis-2.5-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

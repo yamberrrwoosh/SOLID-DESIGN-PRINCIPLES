@@ -81,7 +81,9 @@ class FileReaderWriterCase {
         } catch {
           case NonFatal(e) => LOGGER.log(Level.SEVERE, e.getMessage());
         } finally {
-          writer.close();
+          if (writer != null) {
+            writer.close();
+          }
         }
       }
       case "DOC" => {
@@ -97,7 +99,9 @@ class FileReaderWriterCase {
         } catch {
           case NonFatal(e) => LOGGER.log(Level.SEVERE, e.getMessage());
         } finally {
-          writer.close();
+          if (writer != null) {
+            writer.close();
+          }
         }
       }
       case "XML" => {
