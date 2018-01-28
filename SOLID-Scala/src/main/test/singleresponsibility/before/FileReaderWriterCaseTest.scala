@@ -3,9 +3,9 @@ package singleresponsibility.before
 import org.scalatest.BeforeAndAfter
 import org.scalatest.FunSuite
 
-class FileReaderWriterIfElseTest extends FunSuite with BeforeAndAfter {
+class FileReaderWriterCaseTest extends FunSuite with BeforeAndAfter {
 
-  private val readerWriter = new FileReaderWriterIfElse()
+  private val readerWriter = new FileReaderWriterCase
 
   test("Read PDFs") {
     val fileNames = readerWriter.read("PDF")
@@ -52,4 +52,5 @@ class FileReaderWriterIfElseTest extends FunSuite with BeforeAndAfter {
   test("Write Others") {
     readerWriter.write("TXT", "MyOther");
   }
+  
 }

@@ -64,13 +64,13 @@ class FileReaderWriterCase {
     fileNames;
   }
 
-  def write(fileType: String): Unit = {
+  def write(fileType: String, fileName: String): Unit = {
     var writer: FileWriter = null
     val path = "src/main/resources/";
     fileType match {
       case "PDF" => {
         try {
-          val file = new File(path + "pdfs/MyPDF.pdf");
+          val file = new File(path + s"pdfs/${fileName}.pdf");
           if (file.createNewFile()) {
             LOGGER.info("File is created!");
           } else {
@@ -88,7 +88,7 @@ class FileReaderWriterCase {
       }
       case "DOC" => {
         try {
-          val file = new File(path + "docs/MyDOC.doc");
+          val file = new File(path + s"docs/${fileName}.doc");
           if (file.createNewFile()) {
             LOGGER.info("File is created!");
           } else {
@@ -106,7 +106,7 @@ class FileReaderWriterCase {
       }
       case "XML" => {
         try {
-          val file = new File(path + "xmls/MyXML.xml");
+          val file = new File(path + s"xmls/${fileName}.xml");
           if (file.createNewFile()) {
             LOGGER.info("File is created!");
           } else {
@@ -124,7 +124,7 @@ class FileReaderWriterCase {
       }
       case _ => {
         try {
-          val file = new File(path + "others/MyTxt.txt");
+          val file = new File(path + s"others/${fileName}.txt");
           if (file.createNewFile()) {
             LOGGER.info("File is created!");
           } else {
