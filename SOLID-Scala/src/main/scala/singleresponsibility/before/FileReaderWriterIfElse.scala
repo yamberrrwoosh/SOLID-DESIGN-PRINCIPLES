@@ -46,6 +46,7 @@ class FileReaderWriterIfElse {
           List.empty
         }
       } else {
+        LOGGER.info("Reading Others");
         val resource = getClass().getResource("/others");
         val file = new File(resource.getPath());
         if (file.exists() && file.isDirectory()) {
@@ -59,12 +60,12 @@ class FileReaderWriterIfElse {
     fileNames;
   }
 
-  def write(fileType: String): Unit = {
+  def write(fileType: String, fileName: String): Unit = {
     var writer: FileWriter = null
     val path = "src/main/resources/";
     if (fileType == "PDF") {
       try {
-        val file = new File(path + "pdfs/MyPDF.pdf");
+        val file = new File(path + s"pdfs/${fileName}.pdf");
         if (file.createNewFile()) {
           LOGGER.info("File is created!");
         } else {
@@ -80,7 +81,7 @@ class FileReaderWriterIfElse {
     } else if (fileType == "DOC") {
 
       try {
-        val file = new File(path + "docs/MyDOC.doc");
+        val file = new File(path + s"docs/${fileName}.doc");
         if (file.createNewFile()) {
           LOGGER.info("File is created!");
         } else {
@@ -95,7 +96,7 @@ class FileReaderWriterIfElse {
       }
     } else if (fileType == "XML") {
       try {
-        val file = new File(path + "xmls/MyXML.xml");
+        val file = new File(path + s"xmls/${fileName}.xml");
         if (file.createNewFile()) {
           LOGGER.info("File is created!");
         } else {
@@ -112,7 +113,7 @@ class FileReaderWriterIfElse {
       }
     } else {
       try {
-        val file = new File(path + "others/MyTxt.txt");
+        val file = new File(path + s"others/${fileName}.txt");
         if (file.createNewFile()) {
           LOGGER.info("File is created!");
         } else {
