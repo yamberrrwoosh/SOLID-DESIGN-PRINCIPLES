@@ -63,3 +63,7 @@ Disadvantages of Long Methods:
 #### “open for extension, but closed for modification.”
 
 
+### Liskov Substitution Principle (LSP)
+![image](https://user-images.githubusercontent.com/32823174/35491121-8754a122-0472-11e8-98af-3ddac98cbbc6.png)
+
+
