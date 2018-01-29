@@ -2,6 +2,7 @@
 
 ![image](https://user-images.githubusercontent.com/32823174/35490855-9105ce1e-0470-11e8-988e-72b3ecd0ff0e.png)
 
+- - - -
 ### Issues that we encountered during development
 * Rigidity - is the tendency for software to be difficult to change, even in simple ways. Every change causes a cascade of subsequent changes in dependent modules
 * Fragility - When you make a change, unexpected parts of the system break.
@@ -9,14 +10,14 @@
 * Viscosity - easier to hack than fix properly
 * Opacity - Hard to read/understand 
 
-
+- - - -
 ### How do you define “Good Code”?
 
 * Code should be self documenting
 * Code should be transparent - easy to understand
 * Good code is like a good joke, It needs no explanations
 
-
+- - - -
 ### Design Principles
 
 * Keep it (D.R.Y.) – Don’t repeat yourself!
@@ -24,7 +25,7 @@
 * Y.A.G.N.I – You aren’t gonna need it!
 * S.O.L.I.D
 
-
+- - - -
 ### S.O.L.I.D. Design Principles - Robert Martin 
 
 Books:
@@ -38,7 +39,7 @@ S.O.L.I.D.
 * I – Interface Segregation Principle
 * D – Dependency Inversion Principle
 
-
+- - - -
 ### Single Responsibility Principle (SRP)
 ![image](https://user-images.githubusercontent.com/32823174/35490986-a854f562-0471-11e8-9ee9-45c31e342cd5.png)
 
@@ -58,14 +59,16 @@ Disadvantages of Long Methods:
 * hard to test
 * many reasons to change
 
+- - - -
 ### Open Close Principle (OCP)
 ![image](https://user-images.githubusercontent.com/32823174/35491066-3f4e987e-0472-11e8-9531-2d243bac165e.png)
 #### “open for extension, but closed for modification.”
 
-
+- - - -
 ### Liskov Substitution Principle (LSP)
 ![image](https://user-images.githubusercontent.com/32823174/35491121-8754a122-0472-11e8-98af-3ddac98cbbc6.png)
 
+- - - -
 ### Interface Segregation Principle (ISP)
 ![image](https://user-images.githubusercontent.com/32823174/35491152-afee5bc8-0472-11e8-8d3e-f1f66c0bb1a5.png)
 
@@ -73,6 +76,7 @@ Disadvantages of Long Methods:
 * avoid fat interfaces
 * Single Responsibility in a interface level
 
+- - - -
 ### Dependency Inversion Principle (DIP)
 ![image](https://user-images.githubusercontent.com/32823174/35491203-f21ac536-0472-11e8-9085-2ddddc0756a7.png)
 
