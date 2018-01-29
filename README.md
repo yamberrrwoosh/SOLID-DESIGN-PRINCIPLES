@@ -66,4 +66,12 @@ Disadvantages of Long Methods:
 ### Liskov Substitution Principle (LSP)
 ![image](https://user-images.githubusercontent.com/32823174/35491121-8754a122-0472-11e8-98af-3ddac98cbbc6.png)
 
+### Interface Segregation Principle (ISP)
+![image](https://user-images.githubusercontent.com/32823174/35491152-afee5bc8-0472-11e8-8d3e-f1f66c0bb1a5.png)
+
+* Don't force clients to depend on methods they do not use
+* avoid fat interfaces
+* Single Responsibility in a interface level
+
+
 
