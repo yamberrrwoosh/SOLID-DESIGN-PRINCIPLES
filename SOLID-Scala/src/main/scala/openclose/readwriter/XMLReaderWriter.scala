@@ -9,7 +9,7 @@ import java.util.logging.Logger
 import scala.util.control.NonFatal
 import scala.util.Try
 
-class XMLReaderWriter {
+class XMLReaderWriter extends FileReaderWriter {
   val LOGGER = Logger.getLogger(this.getClass.getName)
 
   def read(): List[String] = {

@@ -12,7 +12,7 @@ import scala.util.Try
 class FileReaderWriterAction {
 
   // Can be configurable
-  private val readerWriter = Map("PDF" -> new PDFReaderWriter, "DOC" -> new DOCReaderWriter);
+  private val readerWriter = Map("PDF" -> new PDFReaderWriter, "DOC" -> new DOCReaderWriter, "XML" -> new XMLReaderWriter, "TXT" -> new OthersReaderWriter);
 
   val LOGGER = Logger.getLogger(this.getClass.getName)
 
@@ -22,7 +22,7 @@ class FileReaderWriterAction {
       if (reader.nonEmpty) {
         reader.get.read()
       } else {
-        new OthersReaderWriter().read
+        List.empty
       }
     }
     fileNames
@@ -33,7 +33,7 @@ class FileReaderWriterAction {
     if (writer.nonEmpty) {
       writer.get.write(fileName)
     } else {
-      new OthersReaderWriter().write(fileName)
+      throw new Exception("File not supported")
     }
   }
 

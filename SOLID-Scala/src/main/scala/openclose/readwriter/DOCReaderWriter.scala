@@ -14,10 +14,10 @@ class DOCReaderWriter extends FileReaderWriter{
 
   @Override
   def read(): List[String] = {
-    val resource = getClass.getResource("/pdfs")
+    val resource = getClass.getResource("/docs")
     val file = new File(resource.getPath)
     if (file.exists() && file.isDirectory) {
-      LOGGER.info("Reading PDFs")
+      LOGGER.info("Reading DOCs")
       val files = file.listFiles().sortBy { x => x.getName }
       files.map(x => x.getName).toList
     } else {
