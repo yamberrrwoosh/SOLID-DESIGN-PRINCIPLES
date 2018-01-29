@@ -42,3 +42,20 @@ S.O.L.I.D.
 ### Single Responsibility Principle (SRP)
 ![image](https://user-images.githubusercontent.com/32823174/35490986-a854f562-0471-11e8-9ee9-45c31e342cd5.png)
 
+![image](https://user-images.githubusercontent.com/32823174/35491001-c09dee3a-0471-11e8-9c25-43d53fdde2b2.png)
+
+##### Definition:
+A class should have only one reason to change
+
+Benefits:
+* easier to understand
+* easier to maintain
+* more reusable
+
+Disadvantages of Long Methods:
+* hard to read
+* hard to reuse/ leads to duplication
+* hard to test
+* many reasons to change
+
+### Single Responsibility Principle (SRP)
