@@ -73,5 +73,12 @@ Disadvantages of Long Methods:
 * avoid fat interfaces
 * Single Responsibility in a interface level
 
+### Dependency Inversion Principle (DIP)
+![image](https://user-images.githubusercontent.com/32823174/35491203-f21ac536-0472-11e8-9085-2ddddc0756a7.png)
+
+“High-lever modules should not depend on low-level modules. Both should depend on abstractions”
+
+High-level modules <----> ABSTRACTION <----> Low-level modules
+
 
 
