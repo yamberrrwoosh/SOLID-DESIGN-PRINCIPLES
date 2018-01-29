@@ -40,3 +40,5 @@ S.O.L.I.D.
 
 
 ### Single Responsibility Principle (SRP)
+![image](https://user-images.githubusercontent.com/32823174/35490986-a854f562-0471-11e8-9ee9-45c31e342cd5.png)
+
