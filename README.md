@@ -58,4 +58,8 @@ Disadvantages of Long Methods:
 * hard to test
 * many reasons to change
 
-### Single Responsibility Principle (SRP)
+### Open Close Principle (OCP)
+![image](https://user-images.githubusercontent.com/32823174/35491066-3f4e987e-0472-11e8-9531-2d243bac165e.png)
+#### “open for extension, but closed for modification.”
+
+
