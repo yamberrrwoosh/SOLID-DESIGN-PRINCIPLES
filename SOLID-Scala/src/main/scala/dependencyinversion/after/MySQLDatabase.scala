@@ -9,7 +9,7 @@ class MySQLDatabase extends Database {
 	
 	def disconnect(): String = {
 		println("Disconnecting MySQL DB")
-		"Oracle"
+		"MySQL"
 	}
 	
 }
