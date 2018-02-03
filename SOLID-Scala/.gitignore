@@ -3,5 +3,5 @@
 /target/
 /bin/
 .cache-main
-.idea
-.iml
+*.idea
+*.iml
